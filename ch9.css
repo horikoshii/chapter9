@@ -61,3 +61,37 @@ footer{
   height: 50px;
   background-color: #AAAAAA
 }
+
+@media screen and (max-width: 768px) {
+  
+  header{
+    width: 100%;
+  }
+  
+  main-visual{
+   width: 100%;
+   display: block;
+  }
+  
+  .box-list{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .box-img1{
+    height: 150px;
+  }
+  
+  .box-img2{
+    height: 150px;
+  }
+  
+  .box-img3{
+    height: 150px;
+  }
+  
+  footer{
+    width: 100%;
+  }
+}
